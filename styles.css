@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+}
+
+.title {
+    font-size: 500%;
+    font-family: pacifico;
+    color: rgb(255, 255, 255);
+}
+.description {
+    font-family: gruppo;
+    text-align:center;
+    padding: 10%;
+    font-size: 130%;
+    color: white;
+}
+.containerStart{
+    text-align: center;
+    padding: 100px;
+}
+.start {
+    font-size: 250%;
+    color: white;
+    text-decoration-line: none;
+
+}
+.start:hover {
+    color: aqua;
+}
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-family: pacifico;
+    font-size: 130%;
+}
+#btn {
+    padding: 50px;
+    text-align: center;
+}
+button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+button:hover {
+    color: rgb(0, 133, 133);
+}
+
+#cartas{
+    text-align: center;
+}
+.carta {
+    width: 100px; /* Ajusta el tamaño de la carta */
+    height: 150px; /* Ajusta el tamaño de la carta */
+    background-color: rgb(255, 255, 255); /* Color de fondo mientras no se asigna la carta */
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: contain; /* Asegura que la imagen se ajuste dentro de la carta */
+    background-position: center; /* Centra la imagen dentro de la carta */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+
+.carta-oculta {
+    background-color: grey; /* Color de fondo mientras la carta está oculta */
+    }
+        
+#temporizador {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(13, 195, 168);
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: gruppo;
+    }
